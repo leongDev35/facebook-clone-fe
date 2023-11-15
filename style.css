@@ -1086,6 +1086,8 @@ margin: 13px 13px 13px 0;
 overflow: hidden;
   
 position: relative;
+  
+box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
 .image-story-div-item {
@@ -1193,6 +1195,8 @@ height: 123px;
 border-radius: 7px;
 
 padding: 10px 14px;
+
+box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 .input-share-your-mind {
 
@@ -1281,6 +1285,8 @@ border-radius: 6px;
 padding: 6px 0;
   
 margin-bottom: 18px;
+  
+box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
 .header-post-item {
@@ -1453,4 +1459,9 @@ border-radius: 6px;
 .action-item-li-sym {
   
 margin-right: 8px;
+}
+.contact-title {
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
